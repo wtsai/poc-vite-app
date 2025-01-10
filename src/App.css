@@ -34,8 +34,29 @@
 }
 
 .card {
-  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: start;
 }
+
+.card-header {
+  font-weight: bold;
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+.list-group-item {
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+
 
 .read-the-docs {
   color: #888;
